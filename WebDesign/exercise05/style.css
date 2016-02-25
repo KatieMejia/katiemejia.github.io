@@ -1,0 +1,53 @@
+html *, html *:before, html *:after {
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Helvetica', sans-serif;
+}    
+
+.container {
+    background: #B5895D;
+    border: 2px solid #000000;
+    padding: 25px;
+    margin: 25px;    
+
+.box>left-box{
+    background: #ccc;
+    width: 100%;
+    border: 2px solid #000000;
+    padding:40px;
+    margin: 10px;
+    text-align: left;
+    }   
+    	
+.box{
+    background: #ccc;
+    border: 2px solid #000000;
+    padding:40px;
+    width: 50%;
+    text-align: left;
+    }	
+    
+.box>left-box{
+    background: #ccc;
+    width: 100%;
+    margin: 10px;
+    }  
+    
+.float-left {
+    float: left;
+    }
+    
+    
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}

@@ -1,0 +1,31 @@
+body {
+	color: #2E7252;
+	background-color: #fffff;
+	}
+
+
+h1, h2,h3,h6 {
+		font-family: helvetica, san serif;
+		color: #FFD23A;
+		margin 0px;
+		
+	}
+	
+#id-header-1-2-3-6 {
+		color: #FFF922;
+
+	}
+	
+h1 {
+	 font-size: 50px;
+	 color: #FFF922;
+	}
+
+#id-header-1-2-3-6 {
+		color: #FFF922;
+
+	}
+
+table, th, tr {
+   border: 1px solid black;
+}
